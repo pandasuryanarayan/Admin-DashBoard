@@ -38,7 +38,7 @@ Follow these steps to set up the project locally.
    npm install
    ```
 4. **Add API URL**:
-   Create a `.env` file add `NEXT_PUBLIC_ADMIN_DASHBOARD_API` to `https://api.socialverseapp.com/admin/dashboard` using Vscode or Text editor in root directory path.
+   Create a `.env.local` file add `NEXT_PUBLIC_ADMIN_DASHBOARD_API` to `https://api.socialverseapp.com/admin/dashboard` using Vscode or Text editor in root directory path.
 
 5. To run in localhost it requires `proxy server`. Go to `services/api.js` and follow instructions in `api.js`.
    
