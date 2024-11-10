@@ -37,10 +37,12 @@ Follow these steps to set up the project locally.
    ```bash
    npm install
    ```
-
-4. **Start the development server**:
+4. **Add API URL**:
+   Create a `.env` file add `NEXT_PUBLIC_ADMIN_DASHBOARD_API` to `https://api.socialverseapp.com/admin/dashboard` using Vscode or Text editor in root directory path.
+   
+5. **Start the development server**:
    ```bash
-   npm start
+   npm run dev
    ```
    Your app will now be available at [http://localhost:3000](http://localhost:3000).
 
