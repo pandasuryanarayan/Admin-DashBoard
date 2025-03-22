@@ -7,7 +7,7 @@ const fetcher = (url) => fetch(url).then((res) => res.json());
 // Uncomment below code to use in development and testing.
 // const apiUrl = `https://thingproxy.freeboard.io/fetch/${process.env.NEXT_PUBLIC_ADMIN_DASHBOARD_API}`;
 // const apiUrl = `${process.env.NEXT_PUBLIC_ADMIN_DASHBOARD_API}`;
-const apiUrl = '/proxy';
+const apiUrl = '/api/proxy';
 
 // Fetch all data from the dashboard API
 export function useDashboardData() {
